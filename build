@@ -43,6 +43,7 @@ function setConfigSite {
     echo "#define PJ_HAS_IPV6 1" >> "$CONFIG_SITE_PATH"
     echo "#define PJMEDIA_HAS_BCG729 1" >> "$CONFIG_SITE_PATH"
     echo "#define PJSIP_TRANSPORT_IDLE_TIME 1" >> "$CONFIG_SITE_PATH"
+    echo "#define PJMEDIA_HAS_RTCP_XR 1" >> "$CONFIG_SITE_PATH"
 }
 
 function buildPjSip {
